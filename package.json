@@ -1,0 +1,26 @@
+{
+  "name": "react-performance-helpers",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/recompose": "^0.26.4",
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "tscomp": "0.15.3"
+  },
+  "tscomp": {
+    "mode": "lib"
+  },
+  "scripts": {
+    "build": "tscomp build",
+    "test": "tscomp test",
+    "eject": "tscomp eject",
+    "watch": "tscomp watch",
+    "prepack": "tscomp build"
+  },
+  "main": "./cjs/index.js",
+  "module": "./lib/index.js",
+  "typings": "./lib/index.d.ts"
+}
